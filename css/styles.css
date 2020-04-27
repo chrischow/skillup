@@ -50,7 +50,7 @@ i {
 }
 
 .navbar-light .navbar-brand:hover {
-    color: #ff9966;
+    color: #007bff;
     transition: 0.3s;
 }
 
@@ -59,7 +59,7 @@ i {
 }
 
 #mainNavbar .nav-link:hover {
-    color: #ff9966;
+    color: #007bff;
     transition: 0.1s;
 }
 
