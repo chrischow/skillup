@@ -1,3 +1,7 @@
+html {
+    overflow-x: hidden;
+}
+
 body {
     font-family: Lato;
     background: white;
@@ -34,14 +38,12 @@ body {
 #baseline {
     background: white;
     padding: 80px 30px 80px 30px;
-    height: 600px;
 }
 
 #advanced {
     /* background: #fafafa; */
     background: #ededed;
     padding: 80px 30px 80px 30px;
-    height: 600px;
 }
 
 i {
@@ -89,14 +91,14 @@ i.main {
 h1 {
     color: #133056;
     font-weight: bolder;
-    font-size: 5.0em;
+    font-size: 4.0rem;
     padding-top: 100px;
 }
 
 h2 {
     color: #133056;
     font-weight: bold;
-    font-size: 4.0em;
+    font-size: 3.0rem;
     text-align: center;
     padding-bottom: 10px;
 }
@@ -109,14 +111,16 @@ h3 {
 h4 {
     padding-bottom: 15px;
     text-align: center;
+    font-size: 1.4rem;
 }
 
 h5 {
     margin: 0;
+    font-size: 1.3rem;
     padding: 5px;
 }
 hr {
-    width: 400px;
+    width: 22rem;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
@@ -150,4 +154,8 @@ a.icon {
 
 a.icon:hover {
     color: #6fceb0;
+}
+
+.btn {
+    white-space: normal;
 }
