@@ -38,13 +38,18 @@ body {
 }
 
 #advanced {
-    background: #fafafa;
+    /* background: #fafafa; */
+    background: #ededed;
     padding: 80px 30px 80px 30px;
     height: 600px;
 }
 
 i {
     margin-right: 10px;
+}
+
+i.main {
+    margin-right: 30px;
 }
 
 .navbar-light .navbar-brand {
@@ -66,8 +71,18 @@ i {
 }
 
 .navbar.scrolled {
-    background: #f8f8f8;
-    transition: background 1s;
+    background: #133056;
+    color: white;
+    transition: all 1s;
+    transition-timing-function: ease;
+    opacity: 0.9
+}
+
+.navbar-brand.scrolled {
+    background: #133056;
+    color: white;
+    transition: all 1s;
+    transition-timing-function: ease;
     opacity: 0.9
 }
 
@@ -111,4 +126,27 @@ hr {
 
 .collapsing {
     transition: 1.0s;
+}
+
+#footer {
+    background: #133056;
+    color: white;
+    border-top: 5px solid #133056;
+    height: 150px;
+    font-size: 20px;
+}
+
+.footertext {
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+    font-family: Roboto Mono;
+}
+
+a.icon {
+    color: white;
+}
+
+a.icon:hover {
+    color: #6fceb0;
 }
