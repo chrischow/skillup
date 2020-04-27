@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Home - RDO SkillUp</title>
+        <title>SkillUp</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -18,7 +18,7 @@
     <body>
         <!-- Nav bar -->
         <nav id="mainNavbar" class="navbar navbar-expand-md navbar-light py-0 fixed-top">
-            <a class="navbar-brand" href="#"><i class="fas fa-book-open"></i>RDO SkillUp</a>
+            <a class="navbar-brand" href="#"><i class="fas fa-book-open"></i>SkillUp</a>
             <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button> -->
@@ -37,13 +37,15 @@
 
         <!-- 1st section: Header -->
         <section id="mainheader">
-            <div class="row justify-content-middle align-items-center w-100">
-                <div class="col-12">
-                    <div id="mainHeading">
-                        <h1><i class="fas fa-book-open main"></i>RDO SkillUp</h1>
-                        <h3>Level up in Data Science today.</h3>
-                        <hr>
-                        <button id="getstarted" class="btn btn-primary btn-lg">Get Started</button>
+            <div class="container-fluid">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-12">
+                        <div id="mainHeading">
+                            <h1><i class="fas fa-book-open main"></i>SkillUp</h1>
+                            <h3>Level up in Data Science today.</h3>
+                            <hr>
+                            <button id="getstarted" class="btn btn-primary btn-lg">Get Started</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -51,9 +53,9 @@
 
         <!-- 2nd section: Baseline Courses -->
         <section id="baselinecontainer">
-            <div class="row" id="baseline">
+            <div class="row justify-content-center" id="baseline">
                 <div class="container">
-                    <div class="col-12">
+                    <div class="col-12 justify-content-center">
                         <h2 id="baselinetext">Baseline Courses</h2>
                         <h4>Explore our hand-picked courses for building a foundation in data science:</h4>
                         
@@ -331,7 +333,7 @@
             // Scroll function for Intro to DS
             $('#introdsbtn').on('click', function(e){
                 if (!$('#introds').hasClass("show")){
-                    $('html,body').delay(700).animate({
+                    $('html,body').delay(200).animate({
                         scrollTop: $(this).offset().top - 15
                     }, 500);
                 }
