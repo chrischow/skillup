@@ -11,15 +11,17 @@ body {
 
 #mainheader {
     height: 600px;
+    width: 100%;
     margin-top: 30px;
 }
 
 #mainheader:after{
     content: "";
+    width: 100%;
     background-image: url("../img/background.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-size: cover;
     top: 0;
     left: 0;
     right: 0;
