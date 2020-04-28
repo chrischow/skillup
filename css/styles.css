@@ -44,6 +44,12 @@ h5 {
 
 a {
     color: #007bff;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: #00ff84;
+    text-decoration: none;
 }
 
 a.icon {
@@ -52,7 +58,7 @@ a.icon {
 }
 
 a.icon:hover {
-    color: #007bff;
+    color: #00ff84;
 }
 
 i {
