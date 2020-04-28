@@ -87,6 +87,16 @@ hr {
     white-space: normal;
 }
 
+.card-body {
+    transition: box-shadow 300ms;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.card-body:hover {
+    box-shadow: 0 0 8px rgba(33, 33, 33, 0.2);
+}
+
 .collapsing {
     transition: 1.0s;
 }
