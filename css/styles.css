@@ -48,10 +48,11 @@ a {
 
 a.icon {
     color: white;
+    transition: 0.5s;
 }
 
 a.icon:hover {
-    color: #6fceb0;
+    color: #007bff;
 }
 
 i {
@@ -97,11 +98,11 @@ hr {
 
 .navbar-light .navbar-brand {
     color: #133056;
+    transition: 0.3s;
 }
 
 .navbar-light .navbar-brand:hover {
     color: #007bff;
-    transition: 0.3s;
 }
 
 .navbar.scrolled {
