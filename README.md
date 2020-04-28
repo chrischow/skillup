@@ -1,8 +1,8 @@
-# The Real RDO
-Repository for prototypes.
+# SkillUp
+A simple landing page for identified courses in data science.
 
 # SkillUp Webpage:
-Link: https://chrischow.github.io/therealrdo/
+Link: https://chrischow.github.io/skillup/
 
 ## Future Ideas:
 * **Why SkillUp?** Explain the context of why we're doing this.
