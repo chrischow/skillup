@@ -9,85 +9,6 @@ body {
     color: #133056;
 }
 
-.baselinecontainer {
-    height: 500px;
-}
-
-#mainheader {
-    height: 600px;
-    width: 100%;
-    margin-top: 30px;
-}
-
-#mainheader:after{
-    content: "";
-    width: 100%;
-    background-image: url("../img/background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: absolute;
-    z-index: -1;
-    opacity: 0.4;
-}
-
-#baseline {
-    background: white;
-    padding: 80px 30px 80px 30px;
-}
-
-#advanced {
-    /* background: #fafafa; */
-    background: #ededed;
-    padding: 80px 30px 80px 30px;
-}
-
-i {
-    margin-right: 10px;
-}
-
-i.main {
-    margin-right: 30px;
-}
-
-.navbar-light .navbar-brand {
-    color: #133056;
-}
-
-.navbar-light .navbar-brand:hover {
-    color: #007bff;
-    transition: 0.3s;
-}
-
-#mainNavbar .nav-link {
-    color: #133056;
-}
-
-#mainNavbar .nav-link:hover {
-    color: #007bff;
-    transition: 0.1s;
-}
-
-.navbar.scrolled {
-    background: #133056;
-    color: white;
-    transition: all 1s;
-    transition-timing-function: ease;
-    opacity: 0.9
-}
-
-.navbar-brand.scrolled {
-    background: #133056;
-    color: white;
-    transition: all 1s;
-    transition-timing-function: ease;
-    opacity: 0.9
-}
-
 h1 {
     color: #133056;
     font-weight: bolder;
@@ -112,41 +33,13 @@ h3 {
 h4 {
     padding-bottom: 15px;
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 h5 {
     margin: 0;
     font-size: 1.3rem;
     padding: 5px;
-}
-hr {
-    width: 22rem;
-    border-top: 1px solid #f8f8f8;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
-}
-
-#mainHeading {
-    text-align: center;
-}
-
-.collapsing {
-    transition: 1.0s;
-}
-
-#footer {
-    background: #133056;
-    color: white;
-    border-top: 5px solid #133056;
-    height: 150px;
-    font-size: 20px;
-}
-
-.footertext {
-    margin: 0 auto;
-    text-align: center;
-    padding: 5px;
-    font-family: Roboto Mono;
 }
 
 a {
@@ -161,8 +54,116 @@ a.icon:hover {
     color: #6fceb0;
 }
 
+i {
+    margin-right: 10px;
+}
+
+i.main {
+    margin-right: 30px;
+}
+
+hr {
+    width: 22rem;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.baselinecontainer {
+    height: 500px;
+}
+
 .btn {
     white-space: normal;
+}
+
+.collapsing {
+    transition: 1.0s;
+}
+
+.footertext {
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+    font-family: Roboto Mono;
+}
+
+.navbar-brand.scrolled {
+    background: #133056;
+    color: white;
+    transition: all 1s;
+    transition-timing-function: ease;
+    opacity: 0.9;
+}
+
+.navbar-light .navbar-brand {
+    color: #133056;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #007bff;
+    transition: 0.3s;
+}
+
+.navbar.scrolled {
+    background: #133056;
+    color: white;
+    transition: all 1s;
+    transition-timing-function: ease;
+    opacity: 0.9;
+}
+
+#mainheader {
+    height: 600px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#mainheader:after{
+    content: "";
+    width: 100%;
+    background-image: url("../img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#advanced {
+    /* background: #fafafa; */
+    background: #ededed;
+    padding: 80px 30px 80px 30px;
+}
+
+#baseline {
+    background: white;
+    padding: 80px 30px 80px 30px;
+}
+
+#footer {
+    background: #133056;
+    color: white;
+    border-top: 5px solid #133056;
+    height: 150px;
+    font-size: 20px;
+}
+
+#mainHeading {
+    text-align: center;
+}
+
+#mainNavbar .nav-link {
+    color: #133056;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #007bff;
+    transition: 0.1s;
 }
 
 @media (max-width: 576px) {

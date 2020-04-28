@@ -60,7 +60,7 @@
                         <h4>Explore our hand-picked courses for building a foundation in data science:</h4>
                         
                         <!-- INTRO TO DS -->
-                        <button id="introdsbtn" class="btn btn-primary w-100" type="button" data-toggle="collapse" data-target="#introds" aria-expanded="false" aria-controls="introds">
+                        <button id="introdsbtn" class="btn btn-primary w-100 csebtn" type="button" data-toggle="collapse" data-target="#introds" aria-expanded="false" aria-controls="introds">
                             <h5>Introduction to Data Science</h5>
                         </button>
                         <div class="collapse introds" id="introds">
@@ -94,7 +94,7 @@
                         <br>
 
                         <!-- DATA VISUALISAION AND STORYTELLING-->
-                        <button class="btn btn-primary w-100" type="button" data-toggle="collapse" data-target="#datavis" aria-expanded="false" aria-controls="datavis">
+                        <button class="btn btn-primary w-100 csebtn" type="button" data-toggle="collapse" data-target="#datavis" aria-expanded="false" aria-controls="datavis">
                             <h5>Data Visualisation and Storytelling</h5>
                         </button>
                         <div class="collapse normal" id="datavis">
@@ -147,7 +147,7 @@
                         <h4>Done already? Dive deeper with these advanced courses:</h4>
                         
 
-                        <button class="btn btn-info w-100" type="button" data-toggle="collapse" data-target="#dsml" aria-expanded="false" aria-controls="dsml">
+                        <button class="btn btn-info w-100 csebtn" type="button" data-toggle="collapse" data-target="#dsml" aria-expanded="false" aria-controls="dsml">
                             <h5>Data Science and Machine Learning with Python</h5>
                         </button>
                         <div class="collapse normal" id="dsml">
@@ -195,7 +195,7 @@
                         <br>
 
 
-                        <button class="btn btn-info w-100" type="button" data-toggle="collapse" data-target="#opl" aria-expanded="false" aria-controls="opl">
+                        <button class="btn btn-info w-100 csebtn" type="button" data-toggle="collapse" data-target="#opl" aria-expanded="false" aria-controls="opl">
                             <h5>Other Programming Languages</h5>
                         </button>
                         <div class="collapse normal" id="opl">
@@ -229,7 +229,7 @@
                         <br>
 
 
-                        <button class="btn btn-info w-100" type="button" data-toggle="collapse" data-target="#orc" aria-expanded="false" aria-controls="orc">
+                        <button class="btn btn-info w-100 csebtn" type="button" data-toggle="collapse" data-target="#orc" aria-expanded="false" aria-controls="orc">
                             <h5>Other Related Competencies</h5>
                         </button>
                         <div class="collapse normal" id="orc">
@@ -263,7 +263,7 @@
                         <br>
 
 
-                        <button class="btn btn-info w-100" type="button" data-toggle="collapse" data-target="#dvs" aria-expanded="false" aria-controls="dvs">
+                        <button class="btn btn-info w-100 csebtn" type="button" data-toggle="collapse" data-target="#dvs" aria-expanded="false" aria-controls="dvs">
                             <h5>Data Visualisation and Storytelling</h5>
                         </button>
                         <div class="collapse normal" id="dvs">
@@ -330,24 +330,13 @@
                 
             });
 
-            // Scroll function for Intro to DS
-            $('#introdsbtn').on('click', function(e){
-                if (!$('#introds').hasClass("show")){
-                    $('html,body').delay(200).animate({
+            $('.csebtn').on('click', function(e){
+                if (!$(this).next('div.collapse').hasClass("show")){
+                    $('html,body').delay(100).animate({
                         scrollTop: $(this).offset().top - 15
                     }, 500);
                 }
-                
             });
-
-            // Scroll function for all other buttons
-            $('.collapse.normal').on('shown.bs.collapse', function(e){
-                
-                $('html,body').animate({
-                    scrollTop: $(this).offset().top - 65
-                }, 500);
-            });
-            
             
         </script>
     </body>
