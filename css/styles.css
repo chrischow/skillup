@@ -98,7 +98,7 @@ hr {
 }
 
 .collapsing {
-    transition: 1.0s;
+    transition: 0.5s;
 }
 
 .footertext {
